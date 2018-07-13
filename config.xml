@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- Sample configuration file. Attributes 12 and 0 are part of the QID, attribute 41 is sensitive. k = 32-->
+<!-- Name attributes of 'att' nodes are not used, included just for reference.-->
+<config method = 'mondrian' k = '5' wrapper='mysql'>
+	<input filename='dataset/dataset_TIST2015_POIs.txt' separator=','/> <!-- If left blank, separator will be set as comma by default[&#09;].-->
+	<output filename='datasetOutput/mondALL.txt' format ='genVals'/> <!-- Format options = {genVals, genValsDist, anatomy}. If left blank,
+	output format will be set as genVals by default.-->
+
+	<id> <!-- List of identifier attributes, if any, these will be excluded from the output -->
+
+
+	</id>
+
+    <id><!-- Optional: will not be printed in output file if mentioned here.-->
+
+    </id>
+
+    <qid><!--Mandatory: for specifying QIDs.-->
+        <att index="1" name="lat"> <!-- name attributes of 'att' nodes are not used, included just for reference.-->
+            <vgh value="[-90:90]" />
+        </att>
+
+        <att index="2" name="lon">
+            <vgh value="[-180:180]" />
+        </att>
+
+
+    </qid>
+
+    <sens><!--Mandatory: for specifying sensitive attributes. Only one sensitive attribute is allowed!-->
+        <att index='4' name='country'>
+            <map>
+                <entry cat='US' int='1' />
+                <entry cat='DE' int='2' />
+                <entry cat='ID' int='3' />
+                <entry cat='SG' int='4' />
+                <entry cat='MY' int='5' />
+                <entry cat='TH' int='6' />
+                <entry cat='MX' int='7' />
+                <entry cat='BE' int='8' />
+                <entry cat='NL' int='9' />
+                <entry cat='BR' int='10' />
+                <entry cat='TR' int='11' />
+                <entry cat='UA' int='12' />
+                <entry cat='KW' int='13' />
+                <entry cat='PE' int='14' />
+            </map>
+        </att>
+
+
+
+    </sens>
+</config>

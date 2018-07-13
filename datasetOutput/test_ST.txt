@@ -1,0 +1,68 @@
+4,3fd66200f964a52000e71ee3,	Jazz Club,			US,	Sat, Apr, 2012.
+5,3fd66200f964a52000e81ee3,	Gym,				US,	Wed, Apr ,  2021.
+5,3fd66200f964a52000ea1ee3,	Indian Restaurant,		US,	Thu ,May , 2019.
+6,3fd66200f964a52000ec1ee3,	Indian Restaurant,		US,	Fri ,Jan , 2013.	
+5,3fd66200f964a52000ee1ee3,	Sandwich Place,			US,	Sat ,Jan , 2027.
+5,3fd66200f964a52000f11ee3,	Bowling Alley,			US,	Thu ,Aug , 2017.
+4,3fd66200f964a52001e51ee3,	Dive Bar,			US,	Fri ,Apr , 2028.
+6,3fd66200f964a52001e81ee3,	Bar,				US,	Sat ,Dec , 2026.
+4,3fd66200f964a52001ed1ee3,	Seafood Restaurant,		US,	Sun, Apr , 2019.
+9,3fd66200f964a52001ef1ee3,	Bar,				US,	Tue ,Jan , 2013.	
+7,4c49c1daa3ace21ea2f40a3c,	Bookstore,			DE,	Sun ,Dec , 2012.	
+3,4c49c1ef6594be9a78c68325,	Flea Market,			ID,	Fri ,Mar , 2014.	
+3,4c49c1ff20ab1b8dc66f3617,	Other Great Outdoors,		SG,	Thu ,Aug , 2034.
+2,4c49c20620ab1b8db07a3617,	Malaysian Restaurant,		MY,	Tue ,Jun , 2010.
+2,4c49c2441b430f47dc2efbc3,	Ramen /  Noodle House,		TH,	Mon ,May , 2013.	
+9,4c49c25420ab1b8d3de33617,	Doctor's Office,		US,	Mon ,Feb , 2020.
+1,4c49c289a3ace21e42f80b3c,	Capitol Building,		MX,	Fri ,Mar , 2013.	
+2,4c49c2999f2ad13a06edbc53,	Parking	,			BE,	Thu ,Aug , 2023.
+3,4c49c2a06594be9ac3cd8425,	Arcade,				ID,	Fri ,Jul , 2017.
+1,4c49c2a4fbafc928a17b5bdb,	Office,				MX,	Tue ,Jun , 2011.	
+3,4c49c2af567776b0ba8a0088,	Event Space,			ID,	Fri ,Apr , 2018.
+8,4c49c2e1a3ace21e865e0c3c,	Neighborhood,			US,	Sun ,Dec , 2010.
+6,4c49c2eca3ace21e7d690c3c,	Home (private),			NL,	Mon, Feb , 2011.	
+6,502bdd8de4b0b2dbe90d0492,	Fast Food Restaurant,		DE,	Thu ,Mar , 2033.
+8,502bde0883025ae48df73084,	Restaurant,			MX,	Thu ,Aug , 2020.
+4,502bde11e4b0ad2915249879,	BBQ Joint,			US,	Sun ,Sep , 2073.
+1,502bde15e4b0d60ec7ba0715,	Beer Garden,			MX,	Wed ,Jan , 2022.
+9,502bde16e4b0392da81b3791,	Lake,				BR,	Fri ,Jul , 2011.	
+7,502bde17e4b0b81737076a3d,	Home (private),			TR,	Mon ,May , 2017.
+2,502bde42e4b022e93194b201,	Building,			BR,	Wed ,Jan , 2024.
+2,502bde48e4b04e602e804787,	Pub,				UA,	Sun ,Sep , 2018.
+1,502bde53e4b082dc2d0497f1,	Coworking Space,		MX,	Tue ,Jan , 2044.
+7,502bde8de4b067dfe6f7a728,	Dentist's Office,		KW,	Sat ,Apr ,2013.	
+8,502bdeaee4b057455abd553f,	Paper / Office Supplies Store,	PE,	Mon ,Mar ,2021.
+4,3fd66200f964a52000e71ee3,	Jazz Club,			US,	Sat, Apr, 2012.
+5,3fd66200f964a52000e81ee3,	Gym,				US,	Wed, Apr ,  2021.
+5,3fd66200f964a52000ea1ee3,	Indian Restaurant,		US,	Thu ,May , 2019.
+6,3fd66200f964a52000ec1ee3,	Indian Restaurant,		US,	Fri ,Jan , 2013.
+5,3fd66200f964a52000ee1ee3,	Sandwich Place,			US,	Sat ,Jan , 2027.
+5,3fd66200f964a52000f11ee3,	Bowling Alley,			US,	Thu ,Aug , 2017.
+4,3fd66200f964a52001e51ee3,	Dive Bar,			US,	Fri ,Apr , 2028.
+6,3fd66200f964a52001e81ee3,	Bar,				US,	Sat ,Dec , 2026.
+4,3fd66200f964a52001ed1ee3,	Seafood Restaurant,		US,	Sun, Apr , 2019.
+9,3fd66200f964a52001ef1ee3,	Bar,				US,	Tue ,Jan , 2013.
+7,4c49c1daa3ace21ea2f40a3c,	Bookstore,			DE,	Sun ,Dec , 2012.
+3,4c49c1ef6594be9a78c68325,	Flea Market,			ID,	Fri ,Mar , 2014.
+3,4c49c1ff20ab1b8dc66f3617,	Other Great Outdoors,		SG,	Thu ,Aug , 2034.
+2,4c49c20620ab1b8db07a3617,	Malaysian Restaurant,		MY,	Tue ,Jun , 2010.
+2,4c49c2441b430f47dc2efbc3,	Ramen /  Noodle House,		TH,	Mon ,May , 2013.
+9,4c49c25420ab1b8d3de33617,	Doctor's Office,		US,	Mon ,Feb , 2020.
+1,4c49c289a3ace21e42f80b3c,	Capitol Building,		MX,	Fri ,Mar , 2013.
+2,4c49c2999f2ad13a06edbc53,	Parking	,			BE,	Thu ,Aug , 2023.
+3,4c49c2a06594be9ac3cd8425,	Arcade,				ID,	Fri ,Jul , 2017.
+1,4c49c2a4fbafc928a17b5bdb,	Office,				MX,	Tue ,Jun , 2011.
+3,4c49c2af567776b0ba8a0088,	Event Space,			ID,	Fri ,Apr , 2018.
+8,4c49c2e1a3ace21e865e0c3c,	Neighborhood,			US,	Sun ,Dec , 2010.
+6,4c49c2eca3ace21e7d690c3c,	Home (private),			NL,	Mon, Feb , 2011.
+6,502bdd8de4b0b2dbe90d0492,	Fast Food Restaurant,		DE,	Thu ,Mar , 2033.
+8,502bde0883025ae48df73084,	Restaurant,			MX,	Thu ,Aug , 2020.
+4,502bde11e4b0ad2915249879,	BBQ Joint,			US,	Sun ,Sep , 2073.
+1,502bde15e4b0d60ec7ba0715,	Beer Garden,			MX,	Wed ,Jan , 2022.
+9,502bde16e4b0392da81b3791,	Lake,				BR,	Fri ,Jul , 2011.
+7,502bde17e4b0b81737076a3d,	Home (private),			TR,	Mon ,May , 2017.
+2,502bde42e4b022e93194b201,	Building,			BR,	Wed ,Jan , 2024.
+2,502bde48e4b04e602e804787,	Pub,				UA,	Sun ,Sep , 2018.
+1,502bde53e4b082dc2d0497f1,	Coworking Space,		MX,	Tue ,Jan , 2044.
+7,502bde8de4b067dfe6f7a728,	Dentist's Office,		KW,	Sat ,Apr ,2013.
+8,502bdeaee4b057455abd553f,	Paper / Office Supplies Store,	PE,	Mon ,Mar ,2021.
