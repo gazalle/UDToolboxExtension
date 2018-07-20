@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
 <!-- Sample configuration file. Attributes 12 and 0 are part of the QID, attribute 41 is sensitive. k = 32-->
 <!-- Name attributes of 'att' nodes are not used, included just for reference.-->
-<config method = 'mondrian' k = '5' wrapper='mysql'>
-	<input filename='dataset/dataset_TIST2015_POIs.txt' separator=','/> <!-- If left blank, separator will be set as comma by default[&#09;].-->
-	<output filename='datasetOutput/mondALL.txt' format ='genVals'/> <!-- Format options = {genVals, genValsDist, anatomy}. If left blank,
+
+<config method = 'mondrian' k ='10' wrapper='postgres'>
+
+    <!-- methods{anatomy,mondrian,incognito_k,incognito_l,incognito_t,datafly}, wrapper{mysql, slite, postgres defaults{method:mondrian, wrapper:mysql}}-->
+	<input filename='dataset/dataset_TIST2015_POIs_1K.txt' separator='&#09;'/> <!-- If left blank, separator will be set as comma by default, for tab use this [&#09;].-->
+	<output filename='datasetOutput/AnonymizedDataset.txt' format ='genVals'/> <!-- Format options = {genVals, genValsDist, anatomy}. If left blank,
 	output format will be set as genVals by default.-->
 
 	<id> <!-- List of identifier attributes, if any, these will be excluded from the output -->
 
-
+        <att index='1' name='checkInTime'/>
 	</id>
 
     <id><!-- Optional: will not be printed in output file if mentioned here.-->
@@ -16,20 +19,28 @@
     </id>
 
     <qid><!--Mandatory: for specifying QIDs.-->
-        <att index="1" name="lat"> <!-- name attributes of 'att' nodes are not used, included just for reference.-->
+        <att index="2" name="latitude"> <!-- name attributes of 'att' nodes are not used, included just for reference.-->
             <vgh value="[-90:90]" />
         </att>
 
-        <att index="2" name="lon">
+        <att index="3" name="longitude">
             <vgh value="[-180:180]" />
         </att>
 
+        <att index="0" name="userID"> <!-- name attributes of 'att' nodes are not used, included just for reference.-->
+            <vgh value="[0:401]">
+                <node value='[0:101)'/>
+                <node value='[101:201)'/>
+                <node value='[201:301)'/>
+                <node value='[301:401]'/>
+            </vgh>
+        </att>
 
     </qid>
 
     <sens><!--Mandatory: for specifying sensitive attributes. Only one sensitive attribute is allowed!-->
-        <att index='4' name='country'>
-            <map>
+        <att index='4' name='locationID'>
+            <!--<map>
                 <entry cat='US' int='1' />
                 <entry cat='DE' int='2' />
                 <entry cat='ID' int='3' />
@@ -44,7 +55,7 @@
                 <entry cat='UA' int='12' />
                 <entry cat='KW' int='13' />
                 <entry cat='PE' int='14' />
-            </map>
+            </map>-->
         </att>
 
 

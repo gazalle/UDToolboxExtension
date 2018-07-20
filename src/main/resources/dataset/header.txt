@@ -1,0 +1,44 @@
+@RELATION census-income
+@ATTRIBUTE age NUMERIC
+@ATTRIBUTE class_of_worker {Not_in_universe, Federal_government, Local_government, Never_worked, Private, Self-employed-incorporated, Self-employed-not_incorporated, State_government, Without_pay}
+@ATTRIBUTE detailed_industry_recode {0, 40, 44, 2, 43, 47, 48, 1, 11, 19, 24, 25, 32, 33, 34, 35, 36, 37, 38, 39, 4, 42, 45, 5, 15, 16, 22, 29, 31, 50, 14, 17, 18, 28, 3, 30, 41, 46, 51, 12, 13, 21, 23, 26, 6, 7, 9, 49, 27, 8, 10, 20}
+@ATTRIBUTE detailed_occupation_recode {0, 12, 31, 44, 19, 32, 10, 23, 26, 28, 29, 42, 40, 34, 14, 36, 38, 2, 20, 25, 37, 41, 27, 24, 30, 43, 33, 16, 45, 17, 35, 22, 18, 39, 3, 15, 13, 46, 8, 21, 9, 4, 6, 5, 1, 11, 7}
+@ATTRIBUTE education {Children, 7th_and_8th_grade, 9th_grade, 10th_grade, High_school_graduate, 11th_grade, 12th_grade_no_diploma, 5th_or_6th_grade, Less_than_1st_grade, Bachelors_degree(BA_AB_BS), 1st_2nd_3rd_or_4th_grade, Some_college_but_no_degree, Masters_degree(MA_MS_MEng_MEd_MSW_MBA), Associates_degree-occup_/vocational, Associates_degree-academic_program, Doctorate_degree(PhD_EdD), Prof_school_degree_(MD_DDS_DVM_LLB_JD)}
+@ATTRIBUTE wage_per_hour NUMERIC
+@ATTRIBUTE enroll_in_edu_inst_last_wk {Not_in_universe, High_school, College_or_university}
+@ATTRIBUTE marital_stat {Never_married, Married-civilian_spouse_present, Married-spouse_absent, Separated, Divorced, Widowed, Married-A_F_spouse_present}
+@ATTRIBUTE major_industry_code {Not_in_universe_or_children, Entertainment, Social_services, Agriculture, Education, Public_administration, Manufacturing-durable_goods, Manufacturing-nondurable_goods, Wholesale_trade, Retail_trade, Finance_insurance_and_real_estate, Private_household_services, Business_and_repair_services, Personal_services_except_private_HH, Construction, Medical_except_hospital, Other_professional_services, Transportation, Utilities_and_sanitary_services, Mining, Communications, Hospital_services, Forestry_and_fisheries, Armed_Forces}
+@ATTRIBUTE major_occupation_code {Not_in_universe, Professional_specialty, Other_service, Farming_forestry_and_fishing, Sales, Adm_support_including_clerical, Protective_services, Handlers_equip_cleaners_etc, Precision_production_craft_&_repair, Technicians_and_related_support, Machine_operators_assmblrs_&_inspctrs, Transportation_and_material_moving, Executive_admin_and_managerial, Private_household_services, Armed_Forces}
+@ATTRIBUTE race {White, Black, Other, Amer_Indian_Aleut_or_Eskimo, Asian_or_Pacific_Islander}
+@ATTRIBUTE hispanic_origin {Mexican_(Mexicano), Mexican-American, Puerto_Rican, Central_or_South_American, All_other, Other_Spanish, Chicano, Cuban, Do_not_know, NA}
+@ATTRIBUTE sex {Female, Male}
+@ATTRIBUTE member_of_a_labor_union {Not_in_universe, No, Yes}
+@ATTRIBUTE reason_for_unemployment {Not_in_universe, Re-entrant, Job_loser_-_on_layoff, New_entrant, Job_leaver, Other_job_loser}
+@ATTRIBUTE full_or_part_time_employment_stat {Children_or_Armed_Forces, Full-time_schedules, Unemployed_part-_time, Not_in_labor_force, Unemployed_full-time, PT_for_non-econ_reasons_usually_FT, PT_for_econ_reasons_usually_PT, PT_for_econ_reasons_usually_FT}
+@ATTRIBUTE capital_gains NUMERIC
+@ATTRIBUTE capital_losses NUMERIC
+@ATTRIBUTE dividends_from_stocks NUMERIC
+@ATTRIBUTE tax_filer_stat {Nonfiler, Joint_one_under_65_&_one_65+, Joint_both_under_65, Single, Head_of_household, Joint_both_65+}
+@ATTRIBUTE region_of_previous_residence {Not_in_universe, South, Northeast, West, Midwest, Abroad}
+@ATTRIBUTE state_of_previous_residence {Not_in_universe, Utah, Michigan, North_Carolina, North_Dakota, Virginia, Vermont, Wyoming, West_Virginia, Pennsylvania, Abroad, Oregon, California, Iowa, Florida, Arkansas, Texas, South_Carolina, Arizona, Indiana, Tennessee, Maine, Alaska, Ohio, Montana, Nebraska, Mississippi, District_of_Columbia, Minnesota, Illinois, Kentucky, Delaware, Colorado, Maryland, Wisconsin, New_Hampshire, Nevada, New_York, Georgia, Oklahoma, New_Mexico, South_Dakota, Missouri, Kansas, Connecticut, Louisiana, Alabama, Massachusetts, Idaho, New_Jersey}
+@ATTRIBUTE detailed_household_and_family_stat {Child_<18_never_marr_not_in_subfamily, Other_Rel_<18_never_marr_child_of_subfamily_RP, Other_Rel_<18_never_marr_not_in_subfamily, Grandchild_<18_never_marr_child_of_subfamily_RP, Grandchild_<18_never_marr_not_in_subfamily, Secondary_individual, In_group_quarters, Child_under_18_of_RP_of_unrel_subfamily, RP_of_unrelated_subfamily, Spouse_of_householder, Householder, Other_Rel_<18_never_married_RP_of_subfamily, Grandchild_<18_never_marr_RP_of_subfamily, Child_<18_never_marr_RP_of_subfamily, Child_<18_ever_marr_not_in_subfamily, Other_Rel_<18_ever_marr_RP_of_subfamily, Child_<18_ever_marr_RP_of_subfamily, Nonfamily_householder, Child_<18_spouse_of_subfamily_RP, Other_Rel_<18_spouse_of_subfamily_RP, Other_Rel_<18_ever_marr_not_in_subfamily, Grandchild_<18_ever_marr_not_in_subfamily, Child_18+_never_marr_Not_in_a_subfamily, Grandchild_18+_never_marr_not_in_subfamily, Child_18+_ever_marr_RP_of_subfamily, Other_Rel_18+_never_marr_not_in_subfamily, Child_18+_never_marr_RP_of_subfamily, Other_Rel_18+_ever_marr_RP_of_subfamily, Other_Rel_18+_never_marr_RP_of_subfamily, Other_Rel_18+_spouse_of_subfamily_RP, Other_Rel_18+_ever_marr_not_in_subfamily, Child_18+_ever_marr_Not_in_a_subfamily, Grandchild_18+_ever_marr_not_in_subfamily, Child_18+_spouse_of_subfamily_RP, Spouse_of_RP_of_unrelated_subfamily, Grandchild_18+_ever_marr_RP_of_subfamily, Grandchild_18+_never_marr_RP_of_subfamily, Grandchild_18+_spouse_of_subfamily_RP}
+@ATTRIBUTE detailed_household_summary_in_household {Child_under_18_never_married, Other_relative_of_householder, Nonrelative_of_householder, Spouse_of_householder, Householder, Child_under_18_ever_married, Group_Quarters-_Secondary_individual, Child_18_or_older}
+@ATTRIBUTE instance_weight NUMERIC
+@ATTRIBUTE migration_code-change_in_msa {Not_in_universe, Nonmover, MSA_to_MSA, NonMSA_to_nonMSA, MSA_to_nonMSA, NonMSA_to_MSA, Abroad_to_MSA, Not_identifiable, Abroad_to_nonMSA}
+@ATTRIBUTE migration_code-change_in_reg {Not_in_universe, Nonmover, Same_county, Different_county_same_state, Different_state_same_division, Abroad, Different_region, Different_division_same_region}
+@ATTRIBUTE migration_code-move_within_reg {Not_in_universe, Nonmover, Same_county, Different_county_same_state, Different_state_in_West, Abroad, Different_state_in_Midwest, Different_state_in_South, Different_state_in_Northeast}
+@ATTRIBUTE live_in_this_house_1_year_ago {Not_in_universe_under_1_year_old, Yes, No}
+@ATTRIBUTE migration_prev_res_in_sunbelt {Not_in_universe, Yes, No}
+@ATTRIBUTE num_persons_worked_for_employer NUMERIC
+@ATTRIBUTE family_members_under_18 {Both_parents_present, Neither_parent_present, Mother_only_present, Father_only_present, Not_in_universe}
+@ATTRIBUTE country_of_birth_father {Mexico, United-States, Puerto-Rico, Dominican-Republic, Jamaica, Cuba, Portugal, Nicaragua, Peru, Ecuador, Guatemala, Philippines, Canada, Columbia, El-Salvador, Japan, England, Trinadad&Tobago, Honduras, Germany, Taiwan, Outlying-U_S_(Guam_USVI_etc), India, Vietnam, China, Hong_Kong, Cambodia, France, Laos, Haiti, South_Korea, Iran, Greece, Italy, Poland, Thailand, Yugoslavia, Holand-Netherlands, Ireland, Scotland, Hungary, Panama}
+@ATTRIBUTE country_of_birth_mother {India, Mexico, United-States, Puerto-Rico, Dominican-Republic, England, Honduras, Peru, Guatemala, Columbia, El-Salvador, Philippines, France, Ecuador, Nicaragua, Cuba, Outlying-U_S_(Guam_USVI_etc), Jamaica, South_Korea, China, Germany, Yugoslavia, Canada, Vietnam, Japan, Cambodia, Ireland, Laos, Haiti, Portugal, Taiwan, Holand-Netherlands, Greece, Italy, Poland, Thailand, Trinadad&Tobago, Hungary, Panama, Hong_Kong, Scotland, Iran}
+@ATTRIBUTE country_of_birth_self {United-States, Mexico, Puerto-Rico, Peru, Canada, South_Korea, India, Japan, Haiti, El-Salvador, Dominican-Republic, Portugal, Columbia, England, Thailand, Cuba, Laos, Panama, China, Germany, Vietnam, Italy, Honduras, Outlying-U_S_(Guam_USVI_etc), Hungary, Philippines, Poland, Ecuador, Iran, Guatemala, Holand-Netherlands, Taiwan, Nicaragua, France, Jamaica, Scotland, Yugoslavia, Hong_Kong, Trinadad&Tobago, Greece, Cambodia, Ireland}
+@ATTRIBUTE citizenship {Native-_Born_in_the_United_States, Foreign_born-_Not_a_citizen_of_U_S, Native-_Born_in_Puerto_Rico_or_U_S_Outlying, Native-_Born_abroad_of_American_Parent(s), Foreign_born-_U_S_citizen_by_naturalization}
+@ATTRIBUTE own_business_or_self_employed {0, 2, 1}
+@ATTRIBUTE fill_inc_questionnaire_for_veterans_admin {Not_in_universe, Yes, No}
+@ATTRIBUTE veterans_benefits {0, 2, 1}
+@ATTRIBUTE weeks_worked_in_year NUMERIC
+@ATTRIBUTE year {94, 95}
+@ATTRIBUTE class {-_50000., 50000+.}
+@DATA
