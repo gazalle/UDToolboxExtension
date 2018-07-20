@@ -1,5 +1,5 @@
 # UDToolboxExtension
-An extended version of UDT Anonymization toolbox for supporting more than one database adapters
+An extended version of UDT Anonymization toolbox for supporting more than one database adapters. Original toolbox can be found in link [1]
 
 Usage:
 
@@ -30,3 +30,5 @@ sqlite_database= database path
 sqlite_dbuser=
 sqlite_dbname=toolbox.db
 
+1. University of Texas at Dallas. Anonymization toolbox.
+http://cs.utdallas.edu/dspl/cgi-bin/toolbox/index.php
